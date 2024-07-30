@@ -11,25 +11,16 @@ body {
 }
 
 #Hero .background-image {
-
-  /*background-image:;
-  url("https://en.idei.club/uploads/posts/2023-06/1687320082_en-idei-club-p-programming-background-dizain-pinterest-3.jpg");
-  */
   background-image: url(/public/img/allTKJ3.png);
   background-size: cover;
 }
 
-#AboutUS .background-image {
-  background-image:
-  url(/public/img/bg1.jpg);
-  background-size: cover;
+#Footer {
+  margin-top: 100em;
+  background-color: gray;
 }
-#AboutUS .background-images {
-  background-image:
-  url(/public/img/bg1.jpg);
-  background-size: cover;
-  top: 90em;
-}
+
+
 
 /* HEADER NAVBAR */
 .burger-active > span:nth-child(1){
@@ -188,3 +179,11 @@ body {
 }
 
 
+
+
+
+@media not all and (min-width: 1024px) {
+  #Footer {
+    margin-top: 400em;
+  }
+}
