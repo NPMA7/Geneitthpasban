@@ -21,7 +21,6 @@ body {
 }
 
 
-
 /* HEADER NAVBAR */
 .burger-active > span:nth-child(1){
   position: absolute;
@@ -179,9 +178,25 @@ body {
 }
 
 
+/* STRUCTURE DAY */
+#Tuesday,
+#Tuesdays,
+#Thursday, 
+#Thursdays, 
+#Friday, 
+#Fridays, 
+#Monday,
+#Mondays,
+#Wednesday,
+#Wednesdays,
+#Saturday,
+#Saturdays,
+#Sunday,
+#Sundays{
+    display: none;
+}
 
-
-
+/* RESPONSIVE UNDER 1024px */
 @media not all and (min-width: 1024px) {
   #Footer {
     margin-top: 400em;

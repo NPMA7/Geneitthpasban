@@ -1,7 +1,5 @@
-const burger = document.querySelector('#burger');
-const navMenu =  document.querySelector('#nav-menu');
-
-burger.addEventListener('click', function(){
-    burger.classList.toggle('burger-active');
-    navMenu.classList.toggle('hidden');
-})
+// PAGE RENDERED /SECONDS
+window.addEventListener("load", () => {
+  const renderTime = (performance.now() / 1000).toFixed(4); // Menghitung waktu render dalam detik
+  document.getElementById("renderTimeValue").textContent = renderTime;
+});
