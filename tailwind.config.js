@@ -1,5 +1,7 @@
-/** @type {import('tailwindcss').Config} */
-module.exports  = {
+// /** @type {import('tailwindcss').Config} */
+// module.exports  = {
+
+tailwin.config = {
   content: [],
   theme: {
     screens: {
