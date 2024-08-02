@@ -1,0 +1,11 @@
+{
+  "name": "geneitthpasban",
+  "version": "0.0.1",
+  "description": "THIS WEB TKJ 3 SMK PASUNDAN 2 BANJARAN Created By Team Technologi. ",
+  "main": "index.html",
+  "repository": "https://github.com/NPMA7/geneitthpasban",
+  "author": "npma, xylzn, skydusk",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}

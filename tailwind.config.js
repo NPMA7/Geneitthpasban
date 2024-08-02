@@ -1,8 +1,10 @@
-// /** @type {import('tailwindcss').Config} */
-// module.exports  = {
-
-tailwin.config = {
-  content: [],
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './*.html',
+    './public/js/*.js',
+    // Add any other paths if necessary
+  ],
   theme: {
     screens: {
       's': '310px',
@@ -28,6 +30,4 @@ tailwin.config = {
     },
   },
   plugins: [],
-
 }
-
