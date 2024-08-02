@@ -1,513 +1,795 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Dist/css/style.css">
-    <title>Dedi Rialdi | Portpolio</title>
-    <link rel="icon" type="image/png" href="/Dist/Foto/Untitled-1.png">
-</head>
-<body>
-    <!-- Header Start -->
-    <header class="bg-transparent absolute  w-full flex items-center z-10 h-24 lg:h-24">
-        <div class="container">
-            <div class="flex items-center justify-between relative">
-                <div class="px-4">
-                    <a href="index.html" class="flex hover: fill">
-                    <img src="/Dist/Foto/Untitled-1.png" alt=""  width="50vw" height="50vh">
-
-                    </a>
-                </div>
-                <div class="flex items-center px-4">
-                    <button id="burger" name="burger" type="button" class="block absolute right-4 lg:hidden">
-                        <span class="w-[30px] h-[2px] my-2 block bg-utama trasition duration-300 ease-in-out rounded-full"></span>
-                        <span class="w-[30px] h-[2px] my-2 block bg-utama trasition duration-300 ease-in-out rounded-full"></span>
-                        <span class="w-[30px] h-[2px] my-2 block bg-utama trasition duration-300 ease-in-out rounded-full"></span>
-                    </button>
-                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-2 top-full lg:flex lg:static lg:bg-transparent max-w-full lg:shadow-none lg:rounded-none">
-                        <ul class="block lg:flex">
-                            <li class="group">
-                                <a href="#home" class="text-base py-2 text-dark mx-8 flex group-hover:text-utama ">Beranda</a>
-                            </li>
-                            <li class="group">
-                                <a href="#about" class="text-base py-2 text-dark mx-8 flex group-hover:text-utama">Tentang Saya</a>
-                            </li>
-                            <li class="group">
-                                <a href="#portofolio" class="text-base py-2 text-dark mx-8 flex group-hover:text-utama">Portoflio</a>
-                            </li>
-                            <li class="group">
-                                <a href="#experience" class="text-base py-2 text-dark mx-8 flex group-hover:text-utama">Experience</a>
-                            </li>
-                            <li class="group">
-                                <a href="#skills" class="text-base py-2 text-dark mx-8 flex group-hover:text-utama">Skills</a>
-                            </li>
-                            <li class="group">
-                                <a href="#contact" class="text-base py-2 text-dark mx-8 flex group-hover:text-utama">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header Finish -->
-
-    <!-- Hero Section Start -->
-    <section id="home" class="pt-36 shapes-section">
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-utama md:text-xl">Konichiwa Minasan.. 🖐, Saya <span class="block font-bold text-gelap text-4xl lg:text-5xl">Dedi Rialdi as Aldi</span></h1>
-                    <h2 class="font-medium text-gray-600 text-lg mb-5 lg:text-2xl">Front-end Developer & <span class="text-gelap">Designer</span></h2>
-                    <p class="font-medium text-abu mb-10 leading-relaxed">Aku bisa membuat apa saja dalam Desain, Ayo beri saya tantangan!</p>
-                    <a href="https://wa.me/088971267465" class="text-base font-semibold text-white bg-utama py-3 px-8 rounded-full hover:shadow-lg hover:bg-yellow-400 transition duration-300 ease-in-out">Hubungi Saya</a>
-                </div>
-                <div class="w-full self-end px-4 lg:w-1/2">
-                    <div class="relative mt-10 lg:mt-0 lg:right-0">
-                        <img src="/Dist/Foto/IMG_20240720_222657.png" alt="aldi" class="max-w-full mx-auto" width="400px" height="400px">
-                        <span class="absolute -bottom-10 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
-                            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#F59E0B" d="M65.1,-20.2C72.7,2.4,59.3,32.7,41.5,42.1C23.8,51.4,1.7,39.8,-21.6,24.2C-44.9,8.6,-69.4,-11,-66,-27.7C-62.6,-44.5,-31.3,-58.6,-1.3,-58.1C28.7,-57.7,57.4,-42.9,65.1,-20.2Z" transform="translate(100 100)"/>
-                            </svg>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="shapes-box">
-			<span data-parallax='{"x": 150, "y": -20, "rotateZ":500}'>
-				<img src="/Dist/Foto/Shapes-content/fl-shape-1.png" title="" alt="">
-			</span>
-			<span data-parallax='{"x": 250, "y": 150, "rotateZ":500}'>
-				<img src="/Dist/Foto/Shapes-content/fl-shape-2.png" title="" alt="">
-			</span>
-			<span data-parallax='{"x": -180, "y": 80, "rotateY":2000}'>
-				<img src="/Dist/Foto/Shapes-content/fl-shape-3.png" title="" alt="">
-			</span>
-			<span data-parallax='{"x": -20, "y": 180}'>
-				<img src="/Dist/Foto/Shapes-content/fl-shape-4.png" title="" alt="">
-			</span>
-			<span data-parallax='{"x": 300, "y": 70}'>
-				<img src="/Dist/Foto/Shapes-content/fl-shape-5.png" title="" alt="">
-			</span>
-			<span data-parallax='{"x": 250, "y": 180, "rotateZ":1500}'>
-				<img src="/Dist/Foto/Shapes-content/fl-shape-6.png" title="" alt="">
-			</span>
-			<span data-parallax='{"x": 180, "y": 10, "rotateZ":2000}'>
-				<img src="/Dist/Foto/Shapes-content/fl-shape-7.png" title="" alt="">
-			</span>
-			<span data-parallax='{"x": 60, "y": -100}'>
-				<img src="/Dist/Foto/Shapes-content/fl-shape-9.png" title="" alt="">
-			</span>
-			<span data-parallax='{"x": -30, "y": 150, "rotateZ":1500}'>
-				<img src="/Dist/Foto/Shapes-content/fl-shape-10.png" title="" alt="">
-			</span>
-		</div>
-	  </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TKJ | Geneitthpasban</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="tracking-wider">
+    <!-- HEADER NAVBAR -->
+    <section
+      id="Header"
+      class="fixed z-10 min-w-full p-6 px-8 flex flex-wrap justify-between items-center bg-black"
+    >
+      <div class="text-orange-300 text-2xl">
+        <h1><a href="">K3</a></h1>
+      </div>
+      <div class="w-full flex justify-center absolute right-10">
+        <button id="burger" name="burger" type="button" class="block md:hidden">
+          <span
+            class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
+          ></span>
+          <span
+            class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
+          ></span>
+          <span
+            class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
+          ></span>
+        </button>
+        <nav
+          id="nav-menu"
+          class="hidden absolute mt-10 text-white left-10 w-full bg-black text-center"
+        >
+          <a class="px-4 block py-2 my-px" href="#Hero">Hero</a>
+          <a class="px-4 block py-2 my-px" href="">Structure</a>
+          <a class="px-4 block py-2 my-px" href="">Gallery</a>
+          <a class="px-4 block py-2 my-px" href="#AboutUS">About US</a>
+        </nav>
+      </div>
+      <div class="relative left-64 -translate-x-1/2 text-white max-md:hidden">
+        <a class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out" href="#Hero">Hero</a>
+        <a class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out" href="#Structure">Structure</a>
+        <a class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out" href="#Gallery">Gallery</a>
+        <a class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out" href="#AboutUS">About US</a>
+      </div>
+      <div class="relative block text-white p-2 uppercase">
+        <a
+          id="FUS"
+          class="tracking-wider hover:text-orange-400 hover:transition-all hover:ease-in-out"
+          href="https://www.instagram.com/geneitthpasban/"
+        >
+          Follow US
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
     </section>
-    <!-- Hero Section Finish -->
-    
-    <!-- About Section Start -->
-    <div id="particles-js">
-    <section id="about" class="pt-36 pb-32">
-        <div class="container ">
-            <div class="flex flex-wrap">
-                <div class="w-full px-4 mb-10 lg:w-1/2">
-                    <h4 class="font-bold uppercase text-utama text-lg mb-3">Tentang Saya</h4>
-                    <h2 class="font-bold text-gray-300 mb-2 text-3xl max-w-md lg:text-4xl">Sedikit Tentang Saya</h2>
-                    <p class=" text-base text-white max-w-xl lg:text-lg">Saya berumur 17 tahun, Saya saat ini masih bersekolah, saya bersekolah di SMK PASUNDAN 2 BANJARAN, Saya punya mimpi untuk menjadi miliarder di usia kurang dari 30 tahun, Saya siap melakukan apapun untuk itu.</p>
-                </div>
-                <div class="w-full px-4 lg:w-1/2">
-                    <h3 class=" font-medium mb-2 text-3xl max-w-md lg:text-4xl lg:pt-10">Kelebihan Saya?</h3>
-                    <p class=" text-base text-abu max-w-xl mb-5 lg:text-lg">Saya mahir dalam menggunakan software Coreldraw, Saya juga menguasai Adobe Photoshop, Saya juga mahir dalam coding khusus-nya bahasa HTML & CSS untuk di tempatkan sebagai Front-end Dev, Saya punya keinginan kuat untuk belajar sesuatu yang baru, Saya orang yang pekerja keras dan saya juga punya prinsip dalam menjalankan tugas, prinsip saya "saya akan terus mengerjakan-nya jika belum sampai goals yang saya inginkan" </p>
-                    <div class="flex items-center">
-                        <!-- IG -->
-                        <a href="https://www.instagram.com/neednnj_/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-text-gray-300 text-gray-300 hover:border-utama trasition duration-300 ease-in-out hover:bg-utama hover:text-white ">
-                            <svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
-                            <!-- FB -->
-                        </a>
-                        
-                        <!-- WA -->
-                        <a href="https://wa.me/085703819717" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-text-gray-300 text-gray-300 hover:border-utama trasition duration-300 ease-in-out hover:bg-utama hover:text-white ">
-                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-                        </a>
-                        <!-- Github -->
-                        <a href="https://github.com/xylzn" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-text-gray-300 text-gray-300 hover:border-utama trasition duration-300 ease-in-out hover:bg-utama hover:text-white ">
-                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                        </a>       
-                    </div>
-                </div>
-            </div>
-        </div>
+
+    <!-- HERO/HOME -->
+    <section id="Hero" class="min-w-full h-screen">
+      <div
+        class="background-image brightness-50 h-full absolute block z-0 left-0 right-0"
+      ></div>
+      <button
+        id="HeroFUS"
+        class="p-4 text-white w-1/2 text-2xl max-lg:text-base text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-lg:"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <h1>TEKNIK KOMPUTER DAN JARINGAN</h1>
+        <h1>SMK PASUNDAN 2 BANJARAN</h1>
+      </button>
     </section>
-    </div>
-    <!-- About Section Finish -->
 
-    <!-- Portofolio Start -->
-    <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16" >
-                    <h4 class="font-semibold text-lg text-utama mb-2">Portofolio</h4>
-                    <h2 class="font-bold text-gelap text-3xl mb-4 sm:text-4xl lg:text-5xl">Project Terbaru</h2>
-                    <p class="font-medium text-md text-gelap">Beberapa Project Terbaru yang telah saya kerjakan, untuk selengkapnya ada di <a href="galery.html" target="_blank" class="font-semibold text-utama">Galeri Saya</a></p>
-                </div>
-            </div>
-
-            <div class="w-full px-4 flex flex-wrap justify-center xl:w-8/12 xl:mx-auto ">
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="Dist/Foto/Portofolio/Design Lomba 1.jpg" alt="" class="w-full">
-                    </div>
-                    <h3 class="font-semibold text-gelap text-xl mt-5 mb-3"> Design Kemasan Perlombaan Bertema Nusantara</h3>
-                    <p class="font-medium text-base text-gray-500">Kemasan oleh-oleh Permen Susu Kerbau Khas Sumbawa.</p>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="Dist/Foto/Portofolio/ARGO.jpg" alt="" class="w-full">
-                    </div>
-                    <h3 class="font-semibold text-gelap text-xl mt-5 mb-3"> Logo Perusahaan ARGO PROTOTYPE</h3>
-                    <p class="font-medium text-base text-gray-500">Logo Perusahaan ARGO PROTOTYPE yang bergerak di bidang freelancer.</p>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="Dist/Foto/Portofolio/Desain-Sampul-3.jpg" alt="" class="w-full">
-                    </div>
-                    <h3 class="font-semibold text-gelap text-xl mt-5 mb-3"> Cover Book Magic Is Spirit</h3>
-                    <p class="font-medium text-base text-gray-500">Cover Buku Berjudul "Magic Is Spirit" ,Buku yang bertemakan Mystery, Sihir, Petualangan dan Fantasi.</p>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="Dist/Foto/Portofolio/Desain Sampul-5.jpg" alt="" class="w-full">
-                    </div>
-                    <h3 class="font-semibold text-gelap text-xl mt-5 mb-3"> Cover Buku Grow With Concept</h3>
-                    <p class="font-medium text-base text-gray-500">Cover Buku yang berisi tentang Bertumbuh dengan menggunakan konsep.</p>
-                </div>
-            </div>
+    <!-- STRUCTURE -->
+    <section id="Structure" class="min-w-full min-h-screen text-white">
+      <div class="w-full">
+        <div class="text-center relative top-32 text-lg ">
+          <div id="Date"></div>
+          <div id="Time"></div>
         </div>
+        <div id="Organization" class="block pt-40 pb-16">
+          <div class="flex justify-center">
+            <img class="w-1/2" src="/Dist/img/bg1.jpg" alt="" srcset="" />
+          </div>
+        </div>
+        <div id="Picket" class="hidden pt-48 pb-4">
+          <div id="Picket" class="flex justify-center leading-loose">
+            <div id="Mondays">
+              <p class="my-5">- Muhammad Alif Rifaldi</p>
+              <p class="my-4">- Dedi Rialdi</p>
+              <p class="my-5">- Rizki Nurahman</p>
+              <p class="my-4">- Muhammad Aril Nasruloh</p>
+              <p class="my-5">- Gilangga Yusuf Maulana</p>
+              <p class="my-4">- Ridho Bachrudin Malik</p>
+              <p class="my-5">- Anisa Safitri Julianti</p>
+            </div>
+            <div id="Tuesdays">
+              <p class="my-5">- Nirwana Alexa Sandria</p>
+              <p class="my-4">- Muhammad Irwan Nugraha </p>
+              <p class="my-5">- Wildan Ahmad Fauzan</p>
+              <p class="my-4">- Aghi Pasha Ramadhan</p>
+              <p class="my-5">- Naufal Alfarizi</p>
+              <p class="my-4">- Kelvin Ramadhan</p>
+              <p class="my-5">- Nurunnisa</p>
+            </div>
+            <div id="Wednesdays">
+              <p class="my-5">- Noval Restu Radhitya</p>
+              <p class="my-4">- Ilham Abisalam</p>
+              <p class="my-5">- Andhia Kurniawan</p>
+              <p class="my-4">- Erfian Muhammad Fasha</p>
+              <p class="my-5">- Akbar Faturrahman</p>
+              <p class="my-4">- Aripin Nurdiansyah</p>
+              <p class="my-5">- Risana Syabilla</p>
+            </div>
+            <div id="Thursdays">
+              <p class="my-5">- Ilham Nurhidayat</p>
+              <p class="my-4">- Ceptian Nugraha</p>
+              <p class="my-5">- Dede Ari Nugraha</p>
+              <p class="my-4">- Muhammad Ardhitya Zein</p>
+              <p class="my-5">- Aip Fajri</p>
+              <p class="my-4">- Muhammad Lutfi Ardiansyah</p>
+              <p class="my-5">- Rahma Irawan</p>
+            </div>
+            <div id="Fridays">
+              <p class="my-5">- Muhammad Rakha Fauzan</p>
+              <p class="my-4">- Alfath Musyaffa</p>
+              <p class="my-5">- N. Pasha Malik Alma</p>
+              <p class="my-4">- Ardiansyah</p>
+              <p class="my-5">- Tendi Ikhsan</p>
+              <p class="my-4">- Septian Nurfadilah</p>
+              <p class="my-5">- Puput Nurhandayani</p>
+            </div>
+            <div id="Saturdays" class="pb-48">
+              <p class="my-5">There are no subjects today</p>
+            </div>
+            <div id="Sundays" class="pb-48">
+              <p class="my-5">There are no subjects today</p>
+            </div>
+          </div>
+        </div>
+        <div id="Schedule" class="hidden pt-48 pb-44">
+          <div id="Subject" class="flex justify-center leading-loose">
+            <div id="Monday">
+              <p class="my-5">- Teknologi Layanan Jaringan</p>
+              <p class="my-4">- Matematik</p>
+              <p class="my-5">- Pendidikan Agama Islam</p>
+              <p class="my-4">- Kewirausahaan</p>
+            </div>
+            <div id="Tuesday">
+              <p class="my-5">- Bahasa Inggris</p>
+              <p class="my-4">- Pendidikan Kewarganegaraan</p>
+              <p class="my-5">- Kewirausahaan</p>
+              <p class="my-4">- Administrasi Infrastruktur Jaringan</p>
+            </div>
+            <div id="Wednesday">
+              <p class="my-5">- Bahasa Jepang</p>
+              <p class="my-4">- Kewirausahaan</p>
+              <p class="my-5">- Bahasa Indonesia</p>
+              <p class="my-4">- Produktif</p>
+            </div>
+            <div id="Thursday" class="pb-24 mb-2">
+              <p class="my-5">- Administrasi Sistem Jaringan</p>
+              <p class="my-4">- Administrasi Infrastruktur Jaringan</p>
+            </div>
+            <div id="Friday" class="pb-12" >
+              <p class="my-5">- Teknologi Layanan Jaringan</p>
+              <p class="my-4">- Administrasi Infrastruktur Jaringan</p>
+              <p class="my-5">- Matematika</p>
+            </div>
+            <div id="Saturday" class="pb-36 mb-2">
+              <p class="my-5">There are no subjects today</p>
+            </div>
+            <div id="Sunday" class="pb-36 mb-2">
+              <p class="my-5">There are no subjects today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="p-4 py-10 w-full flex justify-center">
+        <ul class="w-1/2 flex justify-evenly">
+          <li><button class=" hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out" onclick="sliderStructure()">Structure</button></li>
+          <li><button class=" hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out" onclick="sliderPicket()">Picket</button></li>
+          <li><button class=" hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out" onclick="sliderSchedule()">Schedule</button></li>
+        </ul>
+      </nav>
     </section>
-    <!-- Portofolio Finish -->
-
-    <!-- Cliert Start -->
-    <section id="experience" class="pt-20 pb-32 bg-slate-700">
-        <div class="container">
-            <div class="w-full px-4">
-                <h4 class="font-semibold text-xl text-utama mb-10 text-center lg:text-3xl">Experience</h4>
-                <div class="flex flex-wrap justify-center">
-                    <div class="max-w-xl mx-auto mb-10">
-                            <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl text-center">Academic </h2>
-                            <div class="w-full flex mb-8 items-center">
-                                <img src="/Dist/Foto/Experience/sekolah-dasar-logo.svg" alt="" width="50vw" height="50vh" class="mr">
-                                <div class="block text-gelap">
-                                    <h4 class="font-semibold text-xl ">SDN LAMAJANG 3</h4>
-                                    <p class="text-base">Dari Tahun 2013 - Tahun 2019</p>
-                                </div>
-                            </div>
-                            <div class="w-full flex mb-8 items-center">
-                                <img src="/Dist/Foto/Experience/logo-kemdikbud-ori-300x300.svg" alt="" width="50vw" height="50vh" class="mr">
-                                <div class="block text-gelap">
-                                    <h4 class="font-semibold text-xl ">MTS AL-HIJRAH</h4>
-                                    <p class="text-base">Dari Tahun 2019 - Tahun 2022</p>
-                                </div>
-                            </div>
-                            <div class="w-full flex mb-8 items-center">
-                                <img src="/Dist/Foto/Experience/download.svg" alt="" width="50vw" height="50vh" class="mr">
-                                <div class="block text-gelap">
-                                    <h4 class="font-semibold text-xl ">SMK PASUNDAN 2 BANJARAN</h4>
-                                    <p class="text-base">Dari Tahun 2019 - Tahun Sekarang</p>
-                                </div>
-                            </div>
-                            
-                    </div>
-                    <div class="max-w-xl mx-auto mb-10">
-                            <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl text-center">Pengalaman</h2>
-                           <div class="block items-center ">
-                                <img src="/Dist/Foto/Experience/Oxse.jpeg" alt="" width="150vw" height="150vh" class="rounded-full mx-auto mb-4">
-                                <p class="font-medium text-justify"> Saya Praktik Kerja Lapangan di Perusahaan OXSE selama 3 bulan lamanya, Perusahaan OXSE bergerak di bidang e-commerce yaitu toko online di shopee, disana saya di beri tanggung jawab di bagian designer untuk tugas-tugas nya seperti membuat banner dan sablon untuk baju, dan saya juga di berikan tanggung jawab di bagian pergudangan untuk tugas nya seperti mendata keseluruhan persediaan barang, menghitung pengeluaran & pemasukan barang, mengantarkan barang ke ekspedisi, saya juga melakukan live streaming untuk mempromosikan produk, dan saya juga menghandle di bagian pengiriman paket.</p>
-                           </div>
-                    </div>
-                </div>
-            </div>
-
-            
+    <!-- ABOUTUS -->
+    <section id="AboutUS" class="bg-black min-w-full py-10">
+      <div
+        class="absolute min-w-full flex flex-wrap justify-center gap-2 pt-24"
+      >
+        <div class="flex flex-row flex-wrap justify-center gap-3">
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/allTKJ3.png"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/allTKJ3.png"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/allTKJ3.png"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
+          <div
+            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          >
+            <img
+              src="/Dist/img/20230702220114316.jpg"
+              alt=""
+              class="object-cover object-center w-full h-36 rounded-t-lg"
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <h2 class="mx-2 mt-2 text-black overflow-hidden font-bold">
+                Dedi Rialdi
+              </h2>
+              <img class="w-6 mx-2" src="/Dist/svg/instagram.svg" />
+            </a>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- Cliert finish -->
-    
-    <!-- Skil Start -->
-    <section id="skills" class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Skills</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">ini beberapa Bahasa Pemograman, Software, Plugins, dan Framework, yang saya kuasai dengan baik.</p>
-    </div>
-    <div class="flex flex-wrap -m-2 justify-center">
-        <!-- cdr -->
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center  bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-              <svg role="img" class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>CorelDRAW</title><path d="M10.651 0C10.265.019 9.4.272 8.584.657c-.816.39-3.696 2.161-3.752 6.536.072 4.145 3.847 11.191 6.397 13.455 0 0-4.141-6.952-4.439-13.013C6.488 1.575 10.651 0 10.651 0Zm2.679 0s4.159 1.575 3.861 7.635c-.299 6.061-4.439 13.013-4.439 13.013 2.547-2.264 6.324-9.31 6.396-13.455-.057-4.375-2.936-6.146-3.752-6.536C14.58.272 13.715.019 13.33 0Zm-1.38.019a1.088 1.088 0 0 0-.555.144C9.864.99 8.909 3.982 9.177 8.66c.185 3.242 1.009 7.291 2.422 11.988h.7c1.413-4.697 2.24-8.742 2.425-11.984.268-4.677-.688-7.674-2.219-8.501a1.088 1.088 0 0 0-.555-.144ZM7.017 1.066S2.543 2.909 3.431 8.225c.884 5.32 5.588 10.995 6.986 12.2.503.457-5.777-6.548-6.386-12.699-.291-2.323.39-4.9 2.986-6.66Zm9.966 0c2.595 1.76 3.276 4.337 2.985 6.66-.608 6.151-6.888 13.156-6.386 12.699 1.398-1.205 6.103-6.88 6.987-12.2.888-5.316-3.586-7.159-3.586-7.159Zm-6.815 20.78L10.647 24h2.599l.488-2.154h-3.566Z"/></svg>
-            <div class="flex-grow">
-              <h2 class="text-utama title-font font-medium">CorelDRaw</h2>
-              <p class="text-gray-500">Software</p>
-            </div>
+
+    <!-- FOOTER -->
+    <section id="Footer">
+      <div class="background-image"></div>
+      <div>
+        <div class="h-96 relative pl-14 pr-16 pt-12">
+          <h1 class="text-white text-lg">TimeLine</h1>
+          <div id="FooterFUS" class="relative w-full top-12 h-48">
+            <div class="w-full h-2 bg-black relative top-1/2"></div>
+            <div class="w-1 h-1/4 top-1/2 bg-black relative"></div>
+            <div class="w-1 h-1/4 left-full bg-black relative"></div>
+            <div class="w-1 h-1/4 left-1/3 -top-1/4 bg-black relative"></div>
+            <div class="w-1 h-1/4 left-2/3 -top-1/4 bg-black relative"></div>
           </div>
         </div>
-        <!-- cdr -->
 
-        <!-- photoshop -->
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-              <svg role="img" class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Adobe Photoshop</title><path d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2-.26 0-.49 0-.68.01-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03.01-.31-.07-.62-.23-.89-.17-.26-.41-.46-.7-.57zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.391 11.65c-.399.56-.959.98-1.609 1.22-.68.25-1.43.34-2.25.34-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11.17 0 .33 0 .56-.01.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.149.42.229.85.229 1.3.001.86-.199 1.57-.6 2.13zm7.091 3.89c-.28.4-.671.709-1.12.891-.49.209-1.09.318-1.811.318-.459 0-.91-.039-1.359-.129-.35-.061-.7-.17-1.02-.32-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09.029-.02.06-.01.09.01.39.23.8.391 1.24.49.379.1.779.15 1.18.15.38 0 .65-.051.83-.141.16-.07.27-.24.27-.42 0-.141-.08-.27-.24-.4-.16-.129-.489-.279-.979-.471-.51-.18-.979-.42-1.42-.719-.31-.221-.569-.51-.761-.85-.159-.32-.239-.67-.229-1.021 0-.43.12-.84.341-1.21.25-.4.619-.72 1.049-.92.469-.239 1.059-.349 1.769-.349.41 0 .83.03 1.24.09.3.04.59.12.86.23.039.01.08.05.1.09.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1-.09.02-.14.02-.18 0-.3-.16-.62-.27-.96-.34-.37-.08-.74-.13-1.12-.13-.2-.01-.41.02-.601.07-.129.03-.24.1-.31.2-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27.229.12.47.23.709.33.541.18 1.061.43 1.541.73.33.209.6.49.789.83.16.318.24.67.23 1.029.011.471-.129.94-.389 1.331z"/></svg>
-            <div class="flex-grow">
-              <h2 class="text-utama title-font font-medium">Adobe Photoshop</h2>
-              <p class="text-gray-500">Software</p>
+        <footer class="relative py-16">
+          <div class="flex flex-col text-2xl">
+            <div class="flex justify-center">
+              <img
+              class="w-10 p-2 mx-2 border-black rounded-2xl border-2"
+              src="/Dist/svg/instagram.svg"
+              />
+            </div>
+            <h1 class="text-white text-center my-4">Geneitthpasban</h1>
+            <div class="text-center text-gray-300 text-base">
+              <h2 id="renderTime">Page Rendered in <span id="renderTimeValue">0.0000</span> Seconds</h2>
+          </div>
+            <div class="flex justify-center text-yellow-300 text-base">
+              <h2 class="text-gray-300">This Website Created by</h2>
+              <a href="" class="ml-2"
+                >npma<span class="text-gray-300">,</span></a
+              >
+              <a href="" class="mx-1"
+                >xylzn<span class="text-gray-300">,</span></a
+              >
+              <a href="">skydusk</a>
             </div>
           </div>
-        </div>
-        <!-- photoshop -->
-
-        <!-- word -->
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-            <svg class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.55 21H3v-8.55h8.55V21zM21 21h-8.55v-8.55H21V21zm-9.45-9.45H3V3h8.55v8.55zm9.45 0h-8.55V3H21v8.55z"/></svg>
-            <div class="flex-grow">
-              <h2 class="text-utama title-font font-medium">Microsoft Word</h2>
-              <p class="text-gray-500">Software</p>
-            </div>
-          </div>
-        </div>
-        <!-- word -->
-      
-        <!-- excel -->
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-            <svg class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.55 21H3v-8.55h8.55V21zM21 21h-8.55v-8.55H21V21zm-9.45-9.45H3V3h8.55v8.55zm9.45 0h-8.55V3H21v8.55z"/></svg>
-            <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">Microsoft Excell</h2>
-              <p class="text-gray-500">Software</p>
-            </div>
-          </div>
-        </div>
-        <!-- excel -->
-     
-        <!-- Figma -->
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-                <svg role="img" class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Figma</title><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg>
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">Figma</h2>
-                <p class="text-gray-500">Software</p>
-              </div>
-            </div>
-          </div>
-        <!-- Figma -->
-
-        <!-- Elementor -->
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-                <svg role="img" class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Elementor</title><path d="M12 0C5.372 0 0 5.372 0 12c0 6.626 5.372 12 12 12s12-5.372 12-12c0-6.626-5.372-12-12-12ZM9 17H7V7H9Zm8 0H11V15h6Zm0-4H11V11h6Zm0-4H11V7h6Z"/></svg>
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">Elementor</h2>
-                <p class="text-gray-500">Plugins</p>
-              </div>
-            </div>
-          </div>
-        <!-- Elementor -->
-
-        <!-- HTML -->
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-                <svg role="img" class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">HTML</h2>
-                <p class="text-gray-500">Programing Leanguege</p>
-              </div>
-            </div>
-          </div>
-        <!-- css -->
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-                <svg role="img" class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>CSS3</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg>
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">CSS</h2>
-                <p class="text-gray-500">Programing Leanguege</p>
-              </div>
-            </div>
-          </div>
-          <!-- css -->
-
-          <!-- tailwind -->
-          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-                <svg role="img" class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">Tailwind</h2>
-                <p class="text-gray-500">Framework</p>
-              </div>
-            </div>
-          </div>
-          <!-- tailwind -->
-
-          <!-- boostrap -->
-          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-                <svg role="img" class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Bootstrap</title><path d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z"/></svg>
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">Boostrap</h2>
-                <p class="text-gray-500">Framework</p>
-              </div>
-            </div>
-          </div>
-          <!-- boostrap -->
-
-          <!-- vscode -->
-          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div class="h-full flex items-center hover:bg-white border-utama hover:drop-shadow-[2px_3px_4px_#F59E0B] border p-4 rounded-lg transition duration-300 ease-in-out">
-                <svg class="w-16 h-16 bg-transparent object-cover object-center flex-shrink-0  mr-4 fill-utama" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M30.865 3.448l-6.583-3.167c-0.766-0.37-1.677-0.214-2.276 0.385l-12.609 11.505-5.495-4.167c-0.51-0.391-1.229-0.359-1.703 0.073l-1.76 1.604c-0.583 0.526-0.583 1.443-0.005 1.969l4.766 4.349-4.766 4.349c-0.578 0.526-0.578 1.443 0.005 1.969l1.76 1.604c0.479 0.432 1.193 0.464 1.703 0.073l5.495-4.172 12.615 11.51c0.594 0.599 1.505 0.755 2.271 0.385l6.589-3.172c0.693-0.333 1.13-1.031 1.13-1.802v-21.495c0-0.766-0.443-1.469-1.135-1.802zM24.005 23.266l-9.573-7.266 9.573-7.266z"/>
-                </svg>
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">Virtual Studio Code</h2>
-                <p class="text-gray-500">Software</p>
-              </div>
-            </div>
-          </div>
-          <!-- vscode -->
-
-
-          <!-- Cursor -->
-         
-          <!-- Cursor -->
-    </div>
-  </div>
-</section>
-    <!-- Skil Finish -->
-
-    <!-- contact start -->
-    <section id="contact" class="pt-36 pb-32">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-full mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-utama mb-2">Contact</h4>
-                        <h2 class="font-bold text-gelap text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Saya</h2>
-                        <p class="font-medium text-md text-gelap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, debitis..</p>
-                </div>
-            </div>
-            <form id="contact-form" action="https://formspree.io/f/xblrdjza" method="POST">
-                <div class="w-full lg:w-2/3 lg:mx-auto">
-
-                    <div class="w-full px-4 mb-8">
-                        <label for="name" class="text-base font-bold text-utama md:text-2xl">Nama</label>
-                        <input type="text" id="name" name="Nama" class="w-full bg-slate-200 text-gelap p-3 rounded-md focus:outline-none focus:ring-utama focus:ring-1 focus:border-utama">
-                    </div>
-                    <div class="w-full px-4 mb-8">
-                        <label for="email" class="text-base font-bold text-utama md:text-2xl">Email</label>
-                        <input type="email" id="email" name="email" class="w-full bg-slate-200 text-gelap p-3 rounded-md focus:outline-none focus:ring-utama focus:ring-1 focus:border-utama">
-                    </div>
-                    <div class="w-full px-4 mb-8">
-                        <label for="massage" class="text-base font-bold text-utama md:text-2xl">Pesan</label>
-                        <textarea type="text" id="massage" name="massage" class="w-full bg-slate-200 text-gelap p-3 rounded-md focus:outline-none focus:ring-utama focus:ring-1 focus:border-utama h-32"></textarea>
-                    </div>
-                    <div class="w-full px-4">
-                        <button type="submit" class="text-base font-semibold bg-utama py-3 px-8 text-white rounded-full w-full bg-opacity-80 hover:bg-white hover:text-utama hover:shadow-lg transition duration-500 md:text-2xl">Kirim</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+        </footer>
+      </div>
     </section>
-    <!-- contact end -->
-
-    <!-- footer start -->
-    <footer class="bg-gelap pt-24 pb-12">
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full px-4 mb-12 text-white md:w-1/3">
-                    <h2 class="font-bold text-4xl text-white mb-5">Aldi Aja</h2>
-                    <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
-                    <p>adiirialdii@gmail.com</p>
-                    <p>UNTAT</p>
-                    <p>Bandung</p>
-                </div>
-                <div class="w-full px-4 mb-12 md:w-1/3">
-                    <h3 class="font-semibold text-xl text-white mb-5">Karya Terbaru</h3>
-                    <ul>
-                        <li>
-                            <a href="#portofolio" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Kemasan Permen Khas Sambawa</a>
-                        </li>
-                        <li>
-                            <a href="#portofolio" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Argo Porototype</a>
-                        </li>
-                        <li>
-                            <a href="#portofolio" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Magic Is Spirit</a>
-                        </li>
-                        <li>
-                            <a href="#portofolio" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Grow With Concept</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-full px-4 mb-12 md:w-1/3">
-                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
-                    <ul>
-                        <li>
-                            <a href="#home" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Beranda</a>
-                        </li>
-                        <li>
-                            <a href="#about" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Tentang Saya</a>
-                        </li>
-                        <li>
-                            <a href="#portofolio" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Portofolio</a>
-                        </li>
-                        <li>
-                            <a href="#clients" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Clients</a>
-                        </li>
-                        <li>
-                            <a href="#blog" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="inline-block text-base text-slate-300 hover:text-utama mb-3">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="w-full pt-10 border-t border-slate-700">
-                <div class="flex items-center justify-center mb-10">
-                    <!-- IG -->
-                    <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-text-gray-300 text-gray-300 hover:border-utama trasition duration-300 ease-in-out hover:bg-utama hover:text-white ">
-                        <svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
-                        <!-- FB -->
-                    </a>
-                    <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-text-gray-300 text-gray-300 hover:border-utama trasition duration-300 ease-in-out hover:bg-utama hover:text-white ">
-                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
-                    </a>
-                    <!-- WA -->
-                    <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-text-gray-300 text-gray-300 hover:border-utama trasition duration-300 ease-in-out hover:bg-utama hover:text-white ">
-                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-                    </a>
-                    <!-- Github -->
-                    <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-text-gray-300 text-gray-300 hover:border-utama trasition duration-300 ease-in-out hover:bg-utama hover:text-white ">
-                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                    </a>       
-                </div>
-                <div class="font-medium text-xs text-slate-700 text-center">Dibuat Oleh <a href="" target="_blank" class="font-bold text-utama">Dedi Rialdi As Aldi</a>, Thank U For Browsing Around n Adious🖐 </div>
-                <div class="font-medium text-sm text-slate-700 text-center">Bandung @2024 </div>
-            </div>
-        </div>
-    </footer>
-    <!-- footer finish -->
-
-    <!-- jQuery -->
-    <script src="Dist/js/jquery-3.2.1.min.js"></script>
-    <script src="Dist/js/jquery.parallax-scroll.js"></script>
-    <script src="/Dist/particles.js-master/particles.min.js"></script>
-    <script src="/Dist/particles.js-master/app.js"></script>
-    <script src="/Dist/js/script.js"></script>
-    <!-- FrameWork Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="tailwind.config.js"></script>
-
-</body>
+    <script src="/Dist/js/script.js"></script>
+    <script src="/Dist/js/slider.js"></script>
+    <script src="/Dist/js/clock.js"></script>
+  </body>
 </html>
