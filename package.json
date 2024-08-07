@@ -1,0 +1,24 @@
+{
+  "name": "geneitthpasban",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "website kelas"
+  ],
+  "author": "npma, xylzn, skydusk",
+  "description": "Webiste Teknologi Komputer dan Jaringan 3 Pasundan 2 Banjaran",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "pg": "^8.12.0",
+    "tailwindcss": "^3.4.7"
+  },
+  "license": "ISC",
+  "devDependencies": {}
+}
