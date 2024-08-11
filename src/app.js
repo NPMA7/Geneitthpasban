@@ -1,12 +1,16 @@
 const express = require("express")
 const path = require("path")
 const pool = require("./config/db")
-const imageRoutes = require("./routes/imageRoutes")
+const imageRoutes = require("./routes/imageRoutes");
+const testRoutes = require("../test/testRoutes");
+const apiRoutes = require("./routes/apiRoutes");
+
 const app = express();
 
 
 app.use(express.static(path.join(__dirname, '../public/'))); // Menyajikan file statis dari folder public
 
+// Global Routes
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public', 'index.html'));
 });
@@ -23,8 +27,12 @@ app.get('/health-check', async (req, res) => {
         res.status(500).send('Database connection error');
     }
 });
-// Routes Image
-app.use('/api', imageRoutes);
+
+// Image Routes
+app.use('/api', imageRoutes, apiRoutes);
+
+// Tets Routes
+app.use('/test', testRoutes)
 
 
 module.exports = app;

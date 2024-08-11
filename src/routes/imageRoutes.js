@@ -10,15 +10,4 @@ router.get('/images', imageController.getImages);
 router.get('/images/:id', imageController.getImageById);
 router.delete('/images/:id', imageController.deleteImage); // Tambahkan route delete
 
-// Endpoint untuk memeriksa koneksi database
-router.get('/health-check', async (req, res) => {
-    try {
-        await db.query('SELECT 1'); // Query sederhana untuk memeriksa koneksi
-        res.status(200).send('Database is connected');
-    } catch (err) {
-        console.error('Database connection error:', err);
-        res.status(500).send('Database connection error');
-    }
-});
-
 module.exports = router;

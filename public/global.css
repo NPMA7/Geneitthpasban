@@ -7,6 +7,7 @@ body {
   font-family: "Lemon", sans-serif;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
+  background-color: gray;
 }
 
 #Hero .background-image {
@@ -15,7 +16,6 @@ body {
 }
 
 #Footer {
-  margin-top: 100em;
   background-color: gray;
 }
 
@@ -193,11 +193,4 @@ body {
 #Sunday,
 #Sundays{
     display: none;
-}
-
-/* RESPONSIVE UNDER 1024px */
-@media not all and (min-width: 1024px) {
-  #Footer {
-    margin-top: 400em;
-  }
 }
