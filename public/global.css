@@ -56,27 +56,26 @@ body {
 #FUS span:nth-child(1) {
   top: 0;
   left: 50%;
-  width: 65%;
-  background-color: orangered;
+  width: 50%;
+  background-color: orange;
 }
 
 #FUS:hover span:nth-child(1) {
   top: 0;
-  left: -10%;
-  background-color: white;
+  left: 0%;
 }
 
 #FUS span:nth-child(3) {
   bottom: 0;
   right: 50%;
-  width: 65%;
-  background-color: orangered;
+  width: 50%;
 }
 
 #FUS:hover span:nth-child(3) {
   bottom: 0;
-  right: -10%;
-  background-color: white;
+  right: 0%;
+  background-color: orange;
+  
 }
 
 #FUS span:nth-child(even) {
@@ -90,24 +89,29 @@ body {
 
 #FUS span:nth-child(2) {
   top: 50%;
+  height: 50%;
   left: 0;
+  
 }
 
 #FUS:hover span:nth-child(2) {
-  top: -50%;
+  top: 0%;
   left: 0;
-  background-color: orangered;
+  background-color: orange;
+
 }
 
 #FUS span:nth-child(4) {
   bottom: 50%;
   right: 0;
+  height: 50%;
+  background-color: orange;
+
 }
 
 #FUS:hover span:nth-child(4) {
-  bottom: -50%;
+  bottom: 0%;
   right: 0;
-  background-color: orangered;
 }
 
 /* HERO/HOME */

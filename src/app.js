@@ -11,11 +11,14 @@ const app = express();
 app.use(express.static(path.join(__dirname, '../public/'))); // Menyajikan file statis dari folder public
 
 // Global Routes
+app.get('/carousel', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/view', 'carousel.html'));
+});
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public', 'index.html'));
 });
 app.get('/gallery', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public', 'gallery.html'));
+    res.sendFile(path.join(__dirname, '../public/view', 'gallery.html'));
 });
 // Endpoint untuk memeriksa koneksi database
 app.get('/health-check', async (req, res) => {

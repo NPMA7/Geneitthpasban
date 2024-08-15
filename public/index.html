@@ -18,358 +18,80 @@
     />
   </head>
   <body class="tracking-wider">
-    <!-- HEADER NAVBAR -->
-    <section
-      id="Header"
-      class="fixed z-10 min-w-full p-6 px-8 flex flex-wrap justify-between items-center bg-black"
+  <!-- HEADER NAVBAR -->
+  <section
+  id="Header"
+  class="fixed z-10 min-w-full p-6 px-8 flex flex-wrap justify-between items-center bg-black"
+>
+  <div class="text-orange-300 text-2xl">
+    <h1><a href="">K3</a></h1>
+  </div>
+  <div class="w-full flex justify-center absolute right-10">
+    <button id="burger" name="burger" type="button" class="block md:hidden">
+      <span
+        class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
+      ></span>
+      <span
+        class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
+      ></span>
+      <span
+        class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
+      ></span>
+    </button>
+    <nav
+      id="nav-menu"
+      class="hidden absolute mt-10 text-white left-10 w-full bg-black text-center"
     >
-      <div class="text-orange-300 text-2xl">
-        <h1><a href="">K3</a></h1>
-      </div>
-      <div class="w-full flex justify-center absolute right-10">
-        <button id="burger" name="burger" type="button" class="block md:hidden">
-          <span
-            class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
-          ></span>
-          <span
-            class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
-          ></span>
-          <span
-            class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
-          ></span>
-        </button>
-        <nav
-          id="nav-menu"
-          class="hidden absolute mt-10 text-white left-10 w-full bg-black text-center"
-        >
-          <a class="px-4 block py-2 my-px" href="#Hero">Hero</a>
-          <a class="px-4 block py-2 my-px" href="#Structure">Structure</a>
-          <a class="px-4 block py-2 my-px" href="#Gallery">Gallery</a>
-          <a class="px-4 block py-2 my-px" href="#AboutUS">About US</a>
-        </nav>
-      </div>
-      <div class="relative left-64 -translate-x-1/2 text-white max-md:hidden">
-        <a
-          class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-          href="#Hero"
-          >Hero</a
-        >
-        <a
-          class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-          href="#Structure"
-          >Structure</a
-        >
-        <a
-          class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-          href="#Gallery"
-          >Gallery</a
-        >
-        <a
-          class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-          href="#AboutUS"
-          >About US</a
-        >
-      </div>
-      <div class="relative block text-white p-2 uppercase">
-        <a
-          id="FUS"
-          class="tracking-wider hover:text-orange-400 hover:transition-all hover:ease-in-out"
-          href="https://www.instagram.com/geneitthpasban/"
-        >
-          Follow US
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </div>
-    </section>
+      <a class="px-4 block py-2 my-px" href="#Hero">Hero</a>
+      <a class="px-4 block py-2 my-px" href="#Structure">Structure</a>
+      <a class="px-4 block py-2 my-px" href="#Gallery">Gallery</a>
+      <a class="px-4 block py-2 my-px" href="#AboutUS">About US</a>
+    </nav>
+  </div>
+  <div class="relative left-64 -translate-x-1/2 text-white max-md:hidden">
+    <a
+      class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+      href="#Hero"
+      >Hero</a
+    >
+    <a
+      class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+      href="#Structure"
+      >Structure</a
+    >
+    <a
+      class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+      href="#Gallery"
+      >Gallery</a
+    >
+    <a
+      class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+      href="#AboutUS"
+      >About US</a
+    >
+  </div>
+  <div class="relative block text-white p-2 uppercase">
+    <a
+      id="FUS"
+      class="tracking-wider hover:text-orange-400 hover:transition-all hover:ease-in-out"
+      href="https://www.instagram.com/geneitthpasban/"
+    >
+      Follow US
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+  </div>
+</section>
 
-    <!-- HERO/HOME -->
-    <section id="Hero" class="min-w-full h-screen">
-      <div
-        class="background-image brightness-50 h-full absolute block z-0 left-0 right-0"
-      ></div>
-      <button
-        id="HeroFUS"
-        class="p-4 text-white w-1/2 text-2xl max-lg:text-base text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-lg:"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <h1>TEKNIK KOMPUTER DAN JARINGAN</h1>
-        <h1>SMK PASUNDAN 2 BANJARAN</h1>
-      </button>
-    </section>
+<!-- another file html -->
+    <object id="Hero" class="w-screen h-screen" data="view/home.html" type=""></object>
+    <object id="Structure" class="w-screen h-screen" data="view/structure.html" type=""></object>
+    <object id="Gallery" class="w-screen h-screen" data="view/carousel.html" type=""></object>
+    <object id="AboutUS" class="w-screen h-screen" data="view/aboutus.html" type=""></object>
+    <object class="w-screen h-screen" data="view/footer.html" type=""></object>
 
-    <!-- STRUCTURE -->
-    <section id="Structure" class="min-w-full min-h-screen text-white">
-      <div class="w-full">
-        <div class="text-center relative top-32 text-lg">
-          <div id="Date"></div>
-          <div id="Time"></div>
-        </div>
-        <div id="Organization" class="block pt-40 pb-16">
-          <div class="flex justify-center">
-            <img class="w-1/2" src="/img/bg1.jpg" alt="" srcset="" />
-          </div>
-        </div>
-        <div id="Picket" class="hidden pt-48 pb-4">
-          <div id="Picket" class="flex justify-center leading-loose">
-            <div id="Mondays">
-              <p class="my-5">- Muhammad Alif Rifaldi</p>
-              <p class="my-4">- Dedi Rialdi</p>
-              <p class="my-5">- Rizki Nurahman</p>
-              <p class="my-4">- Muhammad Aril Nasruloh</p>
-              <p class="my-5">- Gilangga Yusuf Maulana</p>
-              <p class="my-4">- Ridho Bachrudin Malik</p>
-              <p class="my-5">- Anisa Safitri Julianti</p>
-            </div>
-            <div id="Tuesdays">
-              <p class="my-5">- Nirwana Alexa Sandria</p>
-              <p class="my-4">- Muhammad Irwan Nugraha</p>
-              <p class="my-5">- Wildan Ahmad Fauzan</p>
-              <p class="my-4">- Aghi Pasha Ramadhan</p>
-              <p class="my-5">- Naufal Alfarizi</p>
-              <p class="my-4">- Kelvin Ramadhan</p>
-              <p class="my-5">- Nurunnisa</p>
-            </div>
-            <div id="Wednesdays">
-              <p class="my-5">- Noval Restu Radhitya</p>
-              <p class="my-4">- Ilham Abisalam</p>
-              <p class="my-5">- Andhia Kurniawan</p>
-              <p class="my-4">- Erfian Muhammad Fasha</p>
-              <p class="my-5">- Akbar Faturrahman</p>
-              <p class="my-4">- Aripin Nurdiansyah</p>
-              <p class="my-5">- Risana Syabilla</p>
-            </div>
-            <div id="Thursdays">
-              <p class="my-5">- Ilham Nurhidayat</p>
-              <p class="my-4">- Ceptian Nugraha</p>
-              <p class="my-5">- Dede Ari Nugraha</p>
-              <p class="my-4">- Muhammad Ardhitya Zein</p>
-              <p class="my-5">- Aip Fajri</p>
-              <p class="my-4">- Muhammad Lutfi Ardiansyah</p>
-              <p class="my-5">- Rahma Irawan</p>
-            </div>
-            <div id="Fridays">
-              <p class="my-5">- Muhammad Rakha Fauzan</p>
-              <p class="my-4">- Alfath Musyaffa</p>
-              <p class="my-5">- N. Pasha Malik Alma</p>
-              <p class="my-4">- Ardiansyah</p>
-              <p class="my-5">- Tendi Ikhsan</p>
-              <p class="my-4">- Septian Nurfadilah</p>
-              <p class="my-5">- Puput Nurhandayani</p>
-            </div>
-            <div id="Saturdays" class="pb-48">
-              <p class="my-5">There are no subjects today</p>
-            </div>
-            <div id="Sundays" class="pb-48">
-              <p class="my-5">There are no subjects today</p>
-            </div>
-          </div>
-        </div>
-        <div id="Schedule" class="hidden pt-48 pb-44">
-          <div id="Subject" class="flex justify-center leading-loose">
-            <div id="Monday">
-              <p class="my-5">- Teknologi Layanan Jaringan</p>
-              <p class="my-4">- Matematik</p>
-              <p class="my-5">- Pendidikan Agama Islam</p>
-              <p class="my-4">- Kewirausahaan</p>
-            </div>
-            <div id="Tuesday">
-              <p class="my-5">- Bahasa Inggris</p>
-              <p class="my-4">- Pendidikan Kewarganegaraan</p>
-              <p class="my-5">- Kewirausahaan</p>
-              <p class="my-4">- Administrasi Infrastruktur Jaringan</p>
-            </div>
-            <div id="Wednesday">
-              <p class="my-5">- Bahasa Jepang</p>
-              <p class="my-4">- Kewirausahaan</p>
-              <p class="my-5">- Bahasa Indonesia</p>
-              <p class="my-4">- Produktif</p>
-            </div>
-            <div id="Thursday" class="pb-24 mb-2">
-              <p class="my-5">- Administrasi Sistem Jaringan</p>
-              <p class="my-4">- Administrasi Infrastruktur Jaringan</p>
-            </div>
-            <div id="Friday" class="pb-12">
-              <p class="my-5">- Teknologi Layanan Jaringan</p>
-              <p class="my-4">- Administrasi Infrastruktur Jaringan</p>
-              <p class="my-5">- Matematika</p>
-            </div>
-            <div id="Saturday" class="pb-36 mb-2">
-              <p class="my-5">There are no subjects today</p>
-            </div>
-            <div id="Sunday" class="pb-36 mb-2">
-              <p class="my-5">There are no subjects today</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <nav class="p-4 py-10 w-full flex justify-center">
-        <ul class="w-1/2 flex justify-evenly">
-          <li>
-            <button
-              class="hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-              onclick="sliderStructure()"
-            >
-              Structure
-            </button>
-          </li>
-          <li>
-            <button
-              class="hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-              onclick="sliderPicket()"
-            >
-              Picket
-            </button>
-          </li>
-          <li>
-            <button
-              class="hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-              onclick="sliderSchedule()"
-            >
-              Schedule
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </section>
-
-    <!-- GALLERY -->
-    <section id="Gallery" class="bg-gray-500 min-w-full min-h-screen">
-      <div class="">
-        <h1>sbbheafhehf</h1>
-      </div>
-      <div>
-        <a href="/gallery" class="text-red-50">View All</a>
-      </div>
-    </section>
-
-    <!-- ABOUTUS -->
-    <section id="AboutUS" class="bg-black min-w-full py-10">
-      <div
-        class="relative min-w-full flex flex-wrap justify-center gap-2 pt-24"
-      >
-        <div class="flex flex-row flex-wrap justify-center gap-3">
-          <!-- area copy (<picture/>) -->
-          <picture
-            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-          >
-            <div class="profile-gallery" id="profileGallery1">
-              <!-- Profile cards dimuat disini -->
-            </div>
-            <a
-              href=""
-              class="profile-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h2 class="mx-2 mt-1 text-black overflow-hidden font-bold">
-                Dedi Rialdi
-              </h2>
-              <div class="flex mt-1 text-sm items-center">
-                <img class="w-6 ml-2 mr-1" src="/svg/instagram.svg" />
-                <span>@</span>
-                <p type="text" class="usernameInput">neednnj_</p>
-              </div>
-            </a>
-          </picture>
-          <!-- copy code on the top to add more an replace the usernameInput to usernameInstagram an edit h2 to realname -->
-          <picture
-          class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-        >
-          <div class="profile-gallery" id="profileGallery1">
-            <!-- Profile cards dimuat disini -->
-          </div>
-          <a
-            href=""
-            class="profile-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 class="mx-2 mt-1 text-black overflow-hidden font-bold">
-              N Pasha Malik A.
-            </h2>
-            <div class="flex mt-1 text-sm items-center">
-              <img class="w-6 ml-2 mr-1" src="/svg/instagram.svg" />
-              <span>@</span>
-              <p type="text" class="usernameInput">kohaku_shinba</p>
-            </div>
-          </a>
-        </picture>
-        <picture
-            class="bg-white rounded-lg h-60 w-52 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-          >
-            <div class="profile-gallery" id="profileGallery1">
-              <!-- Profile cards dimuat disini -->
-            </div>
-            <a
-              href=""
-              class="profile-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h2 class="mx-2 mt-1 text-black overflow-hidden font-bold">
-                Alfath Musyaffa
-              </h2>
-              <div class="flex mt-1 text-sm items-center">
-                <img class="w-6 ml-2 mr-1" src="/svg/instagram.svg" />
-                <span>@</span>
-                <p type="text" class="usernameInput">alfatmusyaffaa</p>
-              </div>
-            </a>
-          </picture>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <section id="Footer">
-      <div class="background-image"></div>
-      <div>
-        <div class="h-96 relative pl-14 pr-16 pt-12">
-          <h1 class="text-white text-lg">TimeLine</h1>
-          <div id="FooterFUS" class="relative w-full top-12 h-48">
-            <div class="w-full h-2 bg-black relative top-1/2"></div>
-            <div class="w-1 h-1/4 top-1/2 bg-black relative"></div>
-            <div class="w-1 h-1/4 left-full bg-black relative"></div>
-            <div class="w-1 h-1/4 left-1/3 -top-1/4 bg-black relative"></div>
-            <div class="w-1 h-1/4 left-2/3 -top-1/4 bg-black relative"></div>
-          </div>
-        </div>
-
-        <footer class="relative py-16">
-          <div class="flex flex-col text-2xl">
-            <div class="flex justify-center">
-              <img
-                class="w-10 p-2 mx-2 border-black rounded-2xl border-2"
-                src="/svg/instagram.svg"
-              />
-            </div>
-            <h1 class="text-white text-center my-4">Geneitthpasban</h1>
-            <div class="text-center text-gray-300 text-base">
-              <h2 id="renderTime">
-                Page Rendered in
-                <span id="renderTimeValue">0.0000</span> Seconds
-              </h2>
-            </div>
-            <div class="flex justify-center text-yellow-300 text-base">
-              <h2 class="text-gray-300">This Website Created by</h2>
-              <a href="" class="ml-2"
-                >npma<span class="text-gray-300">,</span></a
-              >
-              <a href="" class="mx-1"
-                >xylzn<span class="text-gray-300">,</span></a
-              >
-              <a href="">skydusk</a>
-            </div>
-          </div>
-        </footer>
-      </div>
-    </section>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="js/script.js"></script>
     <script src="js/slider.js"></script>
