@@ -18,84 +18,196 @@
     />
   </head>
   <body class="tracking-wider">
-  <!-- HEADER NAVBAR -->
-  <section
-  id="Header"
-  class="fixed z-10 min-w-full p-6 px-8 flex flex-wrap justify-between items-center bg-black"
->
-  <div class="text-orange-300 text-2xl">
-    <h1><a href="">K3</a></h1>
-  </div>
-  <div class="w-full flex justify-center absolute right-10">
-    <button id="burger" name="burger" type="button" class="block md:hidden">
-      <span
-        class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
-      ></span>
-      <span
-        class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
-      ></span>
-      <span
-        class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
-      ></span>
-    </button>
-    <nav
-      id="nav-menu"
-      class="hidden absolute mt-10 text-white left-10 w-full bg-black text-center"
+    <!-- HEADER NAVBAR -->
+    <section
+      id="Header"
+      class="fixed z-10 min-w-full p-6 px-8 flex flex-wrap justify-between items-center bg-black"
     >
-      <a class="px-4 block py-2 my-px" href="#Hero">Hero</a>
-      <a class="px-4 block py-2 my-px" href="#Structure">Structure</a>
-      <a class="px-4 block py-2 my-px" href="#Gallery">Gallery</a>
-      <a class="px-4 block py-2 my-px" href="#AboutUS">About US</a>
-    </nav>
-  </div>
-  <div class="relative left-64 -translate-x-1/2 text-white max-md:hidden">
-    <a
-      class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-      href="#Hero"
-      >Hero</a
-    >
-    <a
-      class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-      href="#Structure"
-      >Structure</a
-    >
-    <a
-      class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-      href="#Gallery"
-      >Gallery</a
-    >
-    <a
-      class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
-      href="#AboutUS"
-      >About US</a
-    >
-  </div>
-  <div class="relative block text-white p-2 uppercase">
-    <a
-      id="FUS"
-      class="tracking-wider hover:text-orange-400 hover:transition-all hover:ease-in-out"
-      href="https://www.instagram.com/geneitthpasban/"
-    >
-      Follow US
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </a>
-  </div>
-</section>
+      <div class="text-orange-300 text-2xl">
+        <h1><a href="">K3</a></h1>
+      </div>
+      <div class="w-full flex justify-center absolute right-10">
+        <button id="burger" name="burger" type="button" class="block md:hidden">
+          <span
+            class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
+          ></span>
+          <span
+            class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
+          ></span>
+          <span
+            class="w-[30px] h-[2px] my-2 block bg-orange-100 trasition duration-300 ease-in-out rounded-full"
+          ></span>
+        </button>
+        <nav
+          id="nav-menu"
+          class="hidden absolute mt-10 text-white left-10 w-full bg-black text-center"
+        >
+          <a class="px-4 block py-2 my-px" href="#Hero">Hero</a>
+          <a class="px-4 block py-2 my-px" href="#Structure">Structure</a>
+          <a class="px-4 block py-2 my-px" href="#Gallery">Gallery</a>
+          <a class="px-4 block py-2 my-px" href="#AboutUS">About US</a>
+        </nav>
+      </div>
+      <div class="relative left-64 -translate-x-1/2 text-white max-md:hidden">
+        <a
+          class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          href="#Hero"
+          >Hero</a
+        >
+        <a
+          class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          href="#Structure"
+          >Structure</a
+        >
+        <a
+          class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          href="#Gallery"
+          >Gallery</a
+        >
+        <a
+          class="px-4 hover:drop-shadow-[8px_9px_4px_#F59E0B] transition ease-in-out"
+          href="#AboutUS"
+          >About US</a
+        >
+      </div>
+      <div class="relative block text-white p-2 uppercase">
+        <a
+          id="FUS"
+          class="tracking-wider hover:text-orange-400 hover:transition-all hover:ease-in-out"
+          href="https://www.instagram.com/geneitthpasban/"
+        >
+          Follow US
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+    </section>
 
-<!-- another file html -->
-    <object id="Hero" class="w-screen h-screen" data="view/home.html" type=""></object>
-    <object id="Structure" class="w-screen h-screen" data="view/structure.html" type=""></object>
-    <object id="Gallery" class="w-screen h-screen" data="view/carousel.html" type=""></object>
-    <object id="AboutUS" class="w-screen h-screen" data="view/aboutus.html" type=""></object>
-    <object class="w-screen h-screen" data="view/footer.html" type=""></object>
+    <section id="Hero" class="min-w-full h-screen">
+      <div
+        class="background-image brightness-50 h-full absolute block z-0 left-0 right-0"
+      ></div>
+      <button
+        id="HeroFUS"
+        class="p-4 text-white w-1/2 text-2xl max-lg:text-base text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-lg:"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <h1>TEKNIK KOMPUTER DAN JARINGAN</h1>
+        <h1>SMK PASUNDAN 2 BANJARAN</h1>
+      </button>
+    </section>
+
+    <!-- STRUCTURE -->
+    <object
+      id="Structure"
+      class="min-w-full h-screen"
+      data="view/structure.html"
+      type=""
+    ></object>
+
+    <!-- CAROUSEL -->
+    <section id="Gallery" class="min-h-screen">
+      <div class="carousel relative top-32 max-w-7xl mx-auto">
+        <div class="relative overflow-hidden h-[30em]  bg-red-200">
+          <div class="carousel-item active absolute w-full">
+            <img
+              src="../img/20230702220114316.jpg"
+              class="block w-full h-screen"
+              alt="Slide 1"
+            />
+          </div>
+          <div class="carousel-item absolute w-full">
+            <img
+              src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
+              class="block w-full h-screen"
+              alt="Slide 2"
+            />
+          </div>
+          <!-- Add more slides as needed -->
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-prev absolute top-3/4 mt-16 left-1/4">
+          &lt;
+        </button>
+        <button class="carousel-next absolute top-3/4 mt-16 right-1/4">
+          &gt;
+        </button>
+
+      <div class="carousel-indicators flex justify-center mt-3">
+        <button
+          class="indicator w-3 h-3 bg-gray-400 rounded-full mx-1"
+          data-slide-to="0"
+        ></button>
+        <button
+          class="indicator w-3 h-3 bg-gray-400 rounded-full mx-1"
+          data-slide-to="1"
+        ></button>
+        <!-- Add more indicators as needed -->
+      </div>
+      <div class="flex justify-center mt-5 text-white text-xl">
+        <a href="#" class="bg-red-300 px-5 py-2 rounded-md">View Us</a>
+      </div>
+    </div>
+  
+    </section>
+
+  
+    <!-- FOOTER -->
+    <section id="Footer">
+      <div class="background-image"></div>
+      <div>
+        <div class="h-96 relative pl-14 pr-16 pt-12">
+          <h1 class="text-white text-lg">TimeLine</h1>
+          <div id="FooterFUS" class="relative w-full top-12 h-48">
+            <div class="w-full h-2 bg-black relative top-1/2"></div>
+            <div class="w-1 h-1/4 top-1/2 bg-black relative"></div>
+            <div class="w-1 h-1/4 left-full bg-black relative"></div>
+            <div class="w-1 h-1/4 left-1/3 -top-1/4 bg-black relative"></div>
+            <div class="w-1 h-1/4 left-2/3 -top-1/4 bg-black relative"></div>
+          </div>
+        </div>
+
+        <footer class="relative py-16">
+          <div class="flex flex-col text-2xl">
+            <div class="flex justify-center">
+              <img
+                class="w-10 p-2 mx-2 border-black rounded-2xl border-2"
+                src="/svg/instagram.svg"
+              />
+            </div>
+            <h1 class="text-white text-center my-4">Geneitthpasban</h1>
+            <div class="text-center text-gray-300 text-base">
+              <h2 id="renderTime">
+                Page Rendered in
+                <span id="renderTimeValue">0.0000</span> Seconds
+              </h2>
+            </div>
+            <div class="flex justify-center text-yellow-300 text-base">
+              <h2 class="text-gray-300">This Website Created by</h2>
+              <a href="" class="ml-2"
+                >npma<span class="text-gray-300">,</span></a
+              >
+              <a href="" class="mx-1"
+                >xylzn<span class="text-gray-300">,</span></a
+              >
+              <a href="">skydusk</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="js/script.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/loadCard.js"></script>
+    <script></script>
   </body>
 </html>

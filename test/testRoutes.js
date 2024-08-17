@@ -7,7 +7,7 @@ const testRoutes = express();
 testRoutes.use(express.static(path.join(__dirname, './test'))); // Menyajikan file statis dari folder public
 
 testRoutes.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'test.html'));
+    res.sendFile(path.join(__dirname, 'carousel.html'));
 });
 
 module.exports = testRoutes;

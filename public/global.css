@@ -42,7 +42,19 @@ body {
 .burger-active > span:nth-child(2){
   scale: 0;
 }    
-
+.carousel {
+  position: relative;
+  width: 100%;
+}
+.carousel-item {
+  transition: transform 0.5s ease;
+}
+.carousel-prev,
+.carousel-next {
+  cursor: pointer;
+  font-size: 5em;
+  color: wheat;
+}
 
 #FUS span:nth-child(odd) {
   position: absolute;
