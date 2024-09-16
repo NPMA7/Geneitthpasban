@@ -3,12 +3,12 @@ const cheerio = require("cheerio");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const { INSTAGRAM_URL } = process.env;  // Pastikan INSTAGRAM_URL disetel di Vercel
+const { INSTAGRAM_URL } = process.env;
 
 const igAPI = async (username) => {
   try {
     const response = await axios.get(`${INSTAGRAM_URL}/${username}/`);
-
+    
     let instagramProfile = {
       status: "Ok",
       data: [],
