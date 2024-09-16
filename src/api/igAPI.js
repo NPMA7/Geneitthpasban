@@ -3,7 +3,7 @@ const cheerio = require("cheerio");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const { INSTAGRAM_URL } = process.env;
+const { INSTAGRAM_URL } = process.env;  // Pastikan INSTAGRAM_URL disetel di Vercel
 
 const igAPI = async (username) => {
   try {
