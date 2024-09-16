@@ -12,11 +12,10 @@
       "dest": "/server.js"
     }
   ],
-
   "rewrites": [
     {
       "source": "/api/ig/:username",
-      "destination": "https://https://geneitthpasban.vercel.app/api/ig/:username"
+      "destination": "https://geneitthpasban.vercel.app/api/ig/:username"
     }
   ]
 }
